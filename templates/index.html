@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Search_21BCE8981_ML_TradeMarkia</title>
+    <style> 
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
+    h1 {
+        color: #333;
+    }
+    form {
+        background: #fff;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    input[type="text"], textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    button {
+        padding: 10px 15px;
+        background-color: #28a745;
+        border: none;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #218838;
+    }
+    .message {
+        color: #28a745;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+    <h1>Store Document</h1>
+    <p> I have stored data related to TradeMarkia,Artificial Intelligence, Machine Learning, Docker,Flask,Redis...</p>
+    <form action="/store" method="post">
+        <input type="text" name="title" placeholder="Title" required>
+        <textarea name="content" placeholder="Content" required></textarea>
+        <button type="submit">Store Document</button>
+    </form>
+    
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+    
+    <h1>Search Document</h1>
+    <form action="/search" method="post">
+        <input type="text" name="search_query" placeholder="Enter search query" required>
+        <button type="submit">Search</button>
+    </form>
+    <!-- Health Check Button -->
+    <h1>API Health Check</h1>
+    <form action="/health" method="get">
+        <button type="submit">Check API Health</button>
+    </form>
+
+</body>
+</html>
