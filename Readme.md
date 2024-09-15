@@ -20,17 +20,17 @@ To run the Document Search and Management System locally, follow these steps:
 ### Steps to Run the Code
 - Clone the repository
 - install the packages in requirement.txt 
--->pip install -r requirements.txt
+- **pip install -r requirements.txt**
 - Set up redis
-- pip install redis
-- pip install flask
--->docker run --name redis -d -p 6379:6379 redis
-  Make sure redis is running
+- **pip install redis**
+- **pip install flask**
+-docker run --name redis -d -p 6379:6379 redis
+-Make sure redis is running
 - Run the flask application 
--->flask run
+- **flask run**
 -Run the docker file
--->docker build -t flask-trademarkia .
-docker run -p 5000:5000 flask-trademarkia
+-**docker build -t flask-trademarkia .**
+-**docker run -p 5000:5000 flask-trademarkia**
 
 ## Project Outcome
 
