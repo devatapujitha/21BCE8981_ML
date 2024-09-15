@@ -60,14 +60,12 @@ The Document Search Application successfully achieved the following outcomes:
 - Collected insights that can be utilized for further enhancements and improvements based on user interaction patterns.
 
 
-This project demonstrates a solid implementation of document storage, search functionality, and performance optimization techniques, making it a valuable tool for managing and retrieving documents efficiently.
-
-
 ### Output of the project
 - **Frontend page that has the 3 forms**
 - First form is to add the title and document to the database
 - Second form is to search the documents with but entering a query
 - Thirsd form is to check the status of the application (Health check)
+
 
 - Entering the details to store in DB
 ![1](https://github.com/user-attachments/assets/9e2f4f5f-6b75-45a1-a314-e2411ad7fbed)
@@ -76,6 +74,11 @@ This project demonstrates a solid implementation of document storage, search fun
 - Showing the results of the query based on the similarity score.Document with more similarity score is displayed first
 ![3](https://github.com/user-attachments/assets/345c449d-7c5e-4ec0-ad42-76ac32a25d54)
 - Health check onclicking the health check button it will be displayed
+![4](https://github.com/user-attachments/assets/eac312d4-1029-4acf-8f24-18db8155d2fd)
+
+
+
+This project demonstrates a solid implementation of document storage, search functionality, and performance optimization techniques, making it a valuable tool for managing and retrieving documents efficiently.
 
 
 
