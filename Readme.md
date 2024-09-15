@@ -22,6 +22,8 @@ To run the Document Search and Management System locally, follow these steps:
 - install the packages in requirement.txt 
 -->pip install -r requirements.txt
 - Set up redis
+- pip install redis
+- pip install flask
 -->docker run --name redis -d -p 6379:6379 redis
   Make sure redis is running
 - Run the flask application 
